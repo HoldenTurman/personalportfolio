@@ -239,6 +239,10 @@ section {
   padding: 20px;
 }
 
+#about p {
+  font-size: 20px;
+}
+
 /* Skills Section */
 
 #experience {
@@ -367,4 +371,28 @@ footer p {
   text-align: center;
 }
 
-/* FAQS */
+/* Component Styling Accordian*/
+
+.accordion {
+  background-color: #eee;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 30px 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
